@@ -1,4 +1,9 @@
-// Vite uses index.html in the root folder by default but it does not modify it
+/*
+ * Vite build configuration.
+ * Configures the React plugin, public assets directory,
+ * source maps, output directory, and bundle filename.
+ * It uses index.html in root by default but does not modify it.
+ */
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
