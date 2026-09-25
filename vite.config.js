@@ -1,5 +1,4 @@
 /*
- * Vite build configuration.
  * Configures the React plugin, public assets directory,
  * source maps, output directory, and bundle filename.
  * It uses index.html in root by default but does not modify it.
