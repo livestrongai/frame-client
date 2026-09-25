@@ -1,3 +1,9 @@
+/*
+ * Application entry point.
+ * Creates the React root and renders the F1 framework
+ * with the Redux store provided to the component tree.
+ */
+
 import ReactDOM     from 'react-dom/client';
 import { Provider } from 'react-redux';
 import store        from './_redux/store';
