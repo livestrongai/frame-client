@@ -1,0 +1,31 @@
+SIMPLIFY BELOW
+
+ARTICLE PROPS - FORM
+_id
+domain
+image
+link
+summary
+tag
+title
+
+ARTICLE PROPS - MONGODB, CACHE.TXT, LOCALSTORAGE, REDUX
+__v *
+_id *
+domain
+image
+link
+owner *
+summary
+tag
+timestamp *
+title
+
+ARTICLE PROPS - DOM
+_id -> key
+domain
+image -> file extension
+link
+summary
+tag
+title

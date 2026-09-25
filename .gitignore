@@ -1,0 +1,23 @@
+# .gitignore and .gitattributes are used to configure git
+
+# publish directory
+_dist-vite/
+
+# begings with _private
+_private*
+
+# created by MacOS
+*.DS_Store
+
+# created by NPM
+# ignores all node_modules folders, not just the ones in the same directory as .gitignore
+**/node_modules/
+
+# created by javac
+**/classes/
+
+# created by python
+__pycache__
+
+# created by c and cpp
+**/out/
