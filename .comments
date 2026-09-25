@@ -1,0 +1,34 @@
+STARTER FILES - CURRENT REPOSITORY FOUNDATION
+
+AGENTS.md
+Project-specific instructions and assumptions.
+
+README.md
+Basic project description: Vite, React, and Redux client application.
+
+index.html
+Browser entry point, metadata, favicon references, global console.logD helper, and React mount element.
+
+index.jsx
+React application entry point. Creates the React root, provides the Redux store, and renders F1.
+
+vite.config.js
+Vite configuration for React, public assets, source maps, build output, and bundle naming.
+
+package.json
+Project metadata, Node version requirement, npm scripts, and runtime/build dependencies.
+
+package-lock.json
+Exact dependency and transitive-dependency versions installed by npm.
+
+.gitattributes
+Git LFS configuration for large image assets.
+
+.gitignore
+Ignored build output, private files, dependencies, and generated files.
+
+.comments
+Development notes describing article data properties across forms, storage, Redux, and the DOM.
+
+CURRENT FOUNDATION
+The repository currently contains the minimal Vite/React application shell. The next starter structure should likely add the F1 component, Redux store, feature components, public assets, and application styling.
