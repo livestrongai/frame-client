@@ -1,0 +1,66 @@
+/* filter or remove */
+:root {
+  --z-apex-height: 64px;
+  --height-logo: 32px;
+  --left: 20px;
+}
+
+/* z-indices */
+:root {
+  --z-a: 10;
+  --z-b: 20;
+  --z-c: 30;
+  --z-d: 40;
+  --z-e: 50;
+  --z-f: 60;
+}
+
+/* colors */
+:root {
+  --color-blue: #4285f4;
+  --color-green: #34a853;
+  --color-red: #ea4335;
+  --color-grey: #444444;
+
+  /* strategy for updating all primary colors */
+  --color-primary: var(--color-green);
+}
+
+/* blacks */
+:root {
+  --color-black-32: rgb(32 32 32 / 1);
+  --color-black-64: rgb(64 64 64 / 1);
+  --color-black-128: rgb(128 128 128 / 1);
+}
+
+/* whites */
+:root {
+  --bg-white-100: rgb(255 255 255 / 1);
+  --bg-white-90:  rgb(255 255 255 / 0.90);
+  --bg-white-50:  rgb(255 255 255 / 0.50);
+  --bg-white-10:  rgb(255 255 255 / 0.10);
+}
+
+/* opacities */
+
+:root {
+  --opa: rgb(255 255 255 / 0.90);
+}
+
+/* shadows, cast south, elevations  */
+:root {
+  --shadow-sm: 
+    0 1px 2px rgb(0 0 0 / 0.1), 
+    0 2px 4px rgb(0 0 0 / 0.06), 
+    0 4px 8px rgb(0 0 0 / 0.04);
+
+  --shadow-md: 
+    0 4px 6px rgb(0 0 0 / 0.12), 
+    0 10px 15px rgb(0 0 0 / 0.1), 
+    0 20px 25px rgb(0 0 0 / 0.05);
+
+  --shadow-lg: 
+    0 10px 20px rgb(0 0 0 / 0.15), 
+    0 20px 40px rgb(0 0 0 / 0.1), 
+    0 30px 60px rgb(0 0 0 / 0.05);
+}

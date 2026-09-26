@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* helps isolate the way this shows up in the debugger */
+body{
+  font-family: system-ui, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+
+  /* default background properties no need to uncomment 
+  background-color: transparent;
+  background-size: auto;
+  background-repeat: repeat;
+  */
+
+  /* modified background */
+  background-attachment: fixed;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  line-height: 100%;
+  font-size: 11px; 
+}
+input[type=text]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}

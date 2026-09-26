@@ -8,6 +8,11 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "standard": {
+    "env": [
+      "browser"
+    ]
+  },
   "dependencies": {
     "@reduxjs/toolkit": "latest",
     "frame-arc": "latest",
@@ -17,7 +22,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest",
-    "standard": "latest",
+    "standard": "^17.1.2",
     "vite": "latest"
   }
 }

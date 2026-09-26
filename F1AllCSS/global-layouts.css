@@ -1,0 +1,16 @@
+#app{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+#app_hold{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
