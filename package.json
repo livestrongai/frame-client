@@ -11,7 +11,10 @@
   "standard": {
     "env": [
       "browser"
-    ]
+    ],
+    "rules": {
+      "camelcase": 0
+    }
   },
   "dependencies": {
     "@reduxjs/toolkit": "latest",

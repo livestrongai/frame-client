@@ -1,0 +1,33 @@
+.footer_outer {
+  /* centers content both horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* stick bar to bottom of the page and make it the width of the page */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+
+  transition: background 2s, transform 2s;
+
+  /* rest */
+  box-shadow: var(--shadow-sm);
+  background: var(--opa);  
+}
+
+.footer_item {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+/* invokes GPU and is more efficient then changing position directly via top prop */
+.footer_show {
+  transform: translateY(0);
+}
+.footer_hide {
+  transform: translateY(100%);
+}

@@ -1,0 +1,27 @@
+.theme-height {
+  font-size: var(--height-logo);
+}
+.apex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apex-option {
+  display: flex;
+  align-items: center;
+  margin-left: var(--left);
+  cursor: pointer;
+  height: 100%;
+  border-bottom: 2px solid transparent;
+}
+.apex-option-on {
+  border-bottom: 2px solid var(--color-primary);
+  color:  var(--color-primary)
+}
+
+/* media query will turn the center navigation off when the screen is too small */
+@media screen and (max-width: 701px) {
+  .apex-center {
+    display:  none;
+  }
+}

@@ -1,0 +1,35 @@
+.apex_hold_hold{
+
+  color: var(--color-black-32);
+
+  z-index: var(--z-a);
+  background: var(--opa);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  transition: background 2s;
+  box-shadow: var(--shadow-sm);  
+  height: var(--z-apex-height);
+  width: 100%;
+  border-top: 2px solid #000;
+  box-sizing: border-box
+}
+
+/* review_later */
+.apex_hold{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin:  0px 10px;
+  transition: background 2s;
+}
+
+/* MEDIA
+*/
+@media screen and (max-width: 301px) {
+  .apex_hold {
+    width: 301px;
+  }
+}
