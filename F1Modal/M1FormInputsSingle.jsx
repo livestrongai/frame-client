@@ -1,4 +1,4 @@
-import { SVGCheck } from '../C0Vectors/SVGCheck.jsx'
+// import { SVGCheck } from '../C0Vectors/SVGCheck.jsx'
 
 export default function M1FormInputsSingle (props) {
   return (

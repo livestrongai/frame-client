@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux'
 import './M1FormInputs.css'
 import M10 from './M1FormInputsSingle.jsx'
-import C1Copy from '../C1Copy/C1Copy.jsx'
+// import C1Copy from '../C1Copy/C1Copy.jsx'
 import addDomain from './Z1AddDomain.jsx'
 import validate from './Z1Validate.js'
 import { updateArticleForm } from '../_redux/a-article-form'
