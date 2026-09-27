@@ -1,4 +1,4 @@
-import './F1Footer.css'
+import './F1BarBottom.css'
 import { useSelector } from 'react-redux'
 import config from '../F1All/config_all.js'
 
