@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import Sphere from './Sphere.jsx'
-import './F1West.css'
+import './F1BarLeft.css'
 
 export default function F1West () {
   console.logD('DEBUG: L2 : F1-West', '#4285f4')

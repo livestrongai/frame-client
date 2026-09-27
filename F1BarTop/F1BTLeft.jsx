@@ -1,10 +1,10 @@
-import './F1ApexLeft.css'
+import './F1BTLeft.css'
 
 // import C1Logo from '../C1Logo/C1Logo.jsx'
 // import C1Indicator from '../C1Indicator/C1Indicator.jsx'
 // import C1Search from '../C1Search/C1Search.jsx'
 
-export default function F1ApexLeft () {
+export default function F1BTLeft () {
   // console.logD('DEBUG: L3 : F1-Apex-Left ');
   return (
     <div className='apex-left'>

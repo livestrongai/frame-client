@@ -1,7 +1,7 @@
 import { useNavigation } from './useNavigation.js'
 import { SVGPeople } from '../C0Vectors/SVGPeople.jsx'
 
-export default function ApexCenterUser () {
+export default function People () {
   const { handleClick, classes } = useNavigation('People')
   return (
     <div onClick={handleClick} className={classes}>

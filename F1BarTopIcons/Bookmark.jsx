@@ -1,7 +1,7 @@
 import { useNavigation } from './useNavigation.js'
 import { SVGBookmark } from '../C0Vectors/SVGBookmark.jsx'
 
-export default function ApexCenterUser () {
+export default function Bookmark () {
   const { handleClick, classes } = useNavigation('Bookmarks')
   return (
     <div onClick={handleClick} className={classes}>

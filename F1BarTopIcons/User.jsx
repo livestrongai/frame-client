@@ -1,7 +1,7 @@
 import { useNavigation } from './useNavigation.js'
 import { SVGUser } from '../C0Vectors/SVGUser.jsx'
 
-export default function ApexCenterUser () {
+export default function User () {
   const { handleClick, classes } = useNavigation('User')
   return (
     <div onClick={handleClick} className={classes}>

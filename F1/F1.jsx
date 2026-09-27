@@ -10,8 +10,8 @@ import '../F1All/F1Data.js'
 import '../F1All/F1Socket.js'
 
 // react components
-import F1Apex from '../F1Apex/F1Apex.jsx'
-import F1West from '../F1West/F1West.jsx'
+import F1BarTop from '../F1BarTop/F1BarTop.jsx'
+import F1BarLeft from '../F1BarLeft/F1BarLeft.jsx'
 import F1BarBottom from '../F1BarBottom/F1BarBottom.jsx'
 
 import F1Page from '../F1Page/F1Page.jsx'
@@ -21,11 +21,11 @@ export default function F1 () {
   console.logD('DEBUG: L1 : F1', '#000000')
   return (
     <div id='app_hold'>
-      <F1Apex />
-      <F1West />
+      <F1BarTop />
+      <F1BarLeft />
       <F1Page />
       <F1Modal />
-      <F1Footer />
+      <F1BarBottom />
     </div>
   )
 };
