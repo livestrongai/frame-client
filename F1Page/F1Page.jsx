@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux'
+// import { useSelector } from 'react-redux'
 
 import './F1Page.css'
 
@@ -9,7 +9,7 @@ import './F1Page.css'
 // import A1People from '../A1People/A1People.jsx'
 
 export default function F1Page () {
-  const page = useSelector((state) => state.MenuPage.current)
+  // const page = useSelector((state) => state.MenuPage.current)
   console.logD('DEBUG: L2 : F1-Page', '#4285f4')
   return (
     <div id='page_hold'>

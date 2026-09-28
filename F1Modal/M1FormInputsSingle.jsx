@@ -12,7 +12,9 @@ export default function M1FormInputsSingle (props) {
         placeholder={props.placeholder}
         name={props.name}
       />
-      {props.valid && <SVGCheck id='z_icon_check' />}
+
+      {/* {props.valid && <SVGCheck id='z_icon_check' />} */}
+
     </div>
   )
 };

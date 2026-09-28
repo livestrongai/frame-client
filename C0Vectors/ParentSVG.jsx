@@ -1,21 +1,21 @@
-import                      './ParentSVG.css';
+import './ParentSVG.css'
 
 const ParentSVG = ({ path, fontSize = '25px', onClick = () => {}, id, className = '' }) => {
-  const computedClassName = className ? `css-zicon ${className}` : 'css-zicon';
+  const computedClassName = className ? `css-zicon ${className}` : 'css-zicon'
   return (
     <svg
-      {...(id && { id })}      
+      {...(id && { id })}
       className={computedClassName}
       fontSize={fontSize}
       onClick={onClick}
-      viewBox="0 0 24 24"
+      viewBox='0 0 24 24'
     >
       {path}
     </svg>
-  );
-};
+  )
+}
 
-export default ParentSVG;
+export default ParentSVG
 
 /*
 removed -> focusable="false" -> legacy IE code

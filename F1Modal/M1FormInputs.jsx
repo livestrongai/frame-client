@@ -26,7 +26,7 @@ export default function M1FormInputs () {
         <M10 valid={d1.summary.valid} value={d1.summary.value} onChange={oC} className='m_a_input' placeholder='summary' name='summary' />
         <M10 valid={d1.tag.valid} value={d1.tag.value} onChange={oC} className='m_a_input' placeholder='tag' name='tag' />
         <M10 valid={d1.domain.valid} value={d1.domain.value} onChange={oC} className='m_a_input' placeholder='domain' name='domain' readonly />
-        {!!d1.title.value && <C1Copy className='c1_copy_modal' title={d1.title.value} />}
+        {/* {!!d1.title.value && <C1Copy className='c1_copy_modal' title={d1.title.value} />} */}
       </div>
     </span>
   )

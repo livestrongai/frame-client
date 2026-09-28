@@ -1,3 +1,5 @@
+import config from './config_all.js'
+
 const Custom = {
   init () {
     console.logD('DEBUG: L2 : F1-Custom', '#34A853')
