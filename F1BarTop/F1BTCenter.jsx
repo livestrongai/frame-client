@@ -10,12 +10,17 @@ export default function F1BTCenter () {
     <div className='apex-center'>
       <User />
       <Home />
-      <Bookmark />
     </div>
   )
 };
 
 /*
-  This will be the chat / AI integration later
+
+Consider deprecating for a more symmetrical layout
+
+Remove
+  <Bookmark />
+
+This will be the chat / AI integration later
   {<People/>}
 */

@@ -1,6 +1,3 @@
-import config from './config_all.js'
-// config.favicon, config.background, config.title
-
 const Custom = {
   init () {
     console.logD('DEBUG: L2 : F1-Custom', '#34A853')

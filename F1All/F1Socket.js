@@ -17,5 +17,4 @@ function createWebSocket () {
   return socket
 }
 
-const socket = createWebSocket()
-export default socket
+export default createWebSocket()

@@ -1,35 +1,16 @@
-/****************************************************************************************************/
-
-const basePath = '/images/'
-
+const basePath = "/images/";
 const livelong = {
   path: basePath,
-
-  // favicon
   favicon: `${basePath}favicon.svg`,
-
-  // logo
   logo: `${basePath}favicon.svg`,
-
-  // background
   background: `${basePath}grid-1.svg`,
-
-  // fallback
   fallback: `${basePath}medical-symbol.jpeg`,
-
-  // title
-  title: 'livelong',
+  title: "livelong",
   title_on: true,
+  start_page: "Articles",
+  email: "chris@livelong.ai",
+  subject: "inquiry",
+  github: "https://github.com/caaker"
+};
 
-  // page
-  start_page: 'Articles',
-
-  // footer
-  email: 'chris@livelong.ai',
-  subject: 'inquiry',
-  github: 'https://github.com/caaker'
-}
-
-/****************************************************************************************************/
-
-export default livelong
+export default livelong;
