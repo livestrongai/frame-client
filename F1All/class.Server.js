@@ -2,7 +2,6 @@ import store from '../_redux/store'
 import { setServer } from '../_redux/f-server'
 let heartbeat = 0
 const url = 'https://frame-server-x8qw.onrender.com'
-
 const server = async () => {
   if (heartbeat === 0) {
     console.logD('DEBUG: L2 : F1-Server ', '#34A853')
@@ -24,8 +23,6 @@ const server = async () => {
   store.dispatch(setServer({ ready: ok, heartbeat: ++heartbeat }))
   return ok
 }
-
 server()
 setInterval(server, 10000)
-
 export default { server }
