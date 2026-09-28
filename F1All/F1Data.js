@@ -1,4 +1,4 @@
-import Helper from '../F1All/object.Helper.js'
+import Helper from '../F1All/F1Helper.js'
 import store from '../_redux/store'
 import { initializeUser } from '../_redux/f-user'
 import { initializeArticles } from '../_redux/a-articles'

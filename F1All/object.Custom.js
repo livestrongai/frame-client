@@ -6,7 +6,6 @@ const Custom = {
     this.setTitle()
     return this
   },
-
   setFavicon () {
     const existing = document.querySelector("link[rel='shortcut icon']")
     if (existing) existing.remove()
@@ -16,11 +15,9 @@ const Custom = {
     link.href = config.favicon + '?favicon_dynamic=true'
     document.head.appendChild(link)
   },
-
   setBackground () {
     document.body.style.backgroundImage = `url(${config.background})`
   },
-
   setTitle () {
     document.title = config.title
   }

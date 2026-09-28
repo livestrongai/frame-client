@@ -1,4 +1,4 @@
-import Helper from '../F1All/object.Helper.js'
+import Helper from '../F1All/F1Helper.js'
 import { addArticle, updateArticle } from '../_redux/a-articles'
 const exp = {}
 const BASE = Helper.getBaseURL()
