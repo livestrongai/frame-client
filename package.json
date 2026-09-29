@@ -13,7 +13,7 @@
       "browser"
     ],
     "rules": {
-      "camelcase": 0
+      "camelcase": "off"
     }
   },
   "dependencies": {
