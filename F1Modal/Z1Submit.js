@@ -21,7 +21,7 @@ exp.put = function (article, dispatch) {
     body: JSON.stringify(article)
   }
   Helper.fetchJSON(`${BASE}/articles/put/${encodeURIComponent(article._id)}`, options, () => {
-    dispatch(updateArticle({ new_article: article, index: article.index }))
+    dispatch(updateArticle({ articleNew: article, index: article.index }))
   })
 }
 

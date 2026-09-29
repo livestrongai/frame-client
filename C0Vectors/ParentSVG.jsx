@@ -1,5 +1,4 @@
 import './ParentSVG.css'
-
 const ParentSVG = ({ path, fontSize = '25px', onClick = () => {}, id, className = '' }) => {
   const computedClassName = className ? `css-zicon ${className}` : 'css-zicon'
   return (
@@ -14,7 +13,6 @@ const ParentSVG = ({ path, fontSize = '25px', onClick = () => {}, id, className 
     </svg>
   )
 }
-
 export default ParentSVG
 
 /*
@@ -22,4 +20,7 @@ removed -> focusable="false" -> legacy IE code
 removed -> aria-hidden="true" as it should be accessible to screen readers
 fixed default id issue for best practice
 consider moving fontSize to CSS
+
+Note https://fonts.google.com/icons uses viewBox="0 -960 960 960"
+
 */

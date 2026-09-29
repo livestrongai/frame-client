@@ -3,8 +3,8 @@ import F1BTCenter from './F1BTCenter.jsx'
 import F1BTRight from './F1BTRight.jsx'
 import './F1BarTop.css'
 
-export default function F1Apex () {
-  console.logD('DEBUG: L2 : F1-Apex ', '#4285f4')
+export default function F1BarTop () {
+  console.logD('DEBUG: L2 : F1-BarTop ', '#4285f4')
   return (
     <div className='apex_hold_hold'>
       <div className='apex_hold'>

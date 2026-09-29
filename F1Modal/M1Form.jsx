@@ -10,15 +10,15 @@ import { LSaddArticle } from '../F1LS/F1LSArticles.js'
 
 export default function M1Form () {
   const dispatch = useDispatch()
-  const article_form = useSelector((state) => state.ArticleForm) || {}
+  const articleForm = useSelector((state) => state.ArticleForm) || {}
   const config = useSelector((state) => state.Modal.config)
 
   function onSubmit (event) {
     event.preventDefault()
-    if (!article_form.valid) return alert('Form has errors. Please correct.')
+    if (!articleForm.valid) return alert('Form has errors. Please correct.')
     dispatch(clearArticleForm())
     dispatch(toggleModalOff())
-    const payload = makeObject(article_form)
+    const payload = makeObject(articleForm)
     if (config) {
       Submit.put(payload, dispatch)
     } else {

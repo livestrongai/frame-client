@@ -6,8 +6,8 @@ export const ArticlesSlice = createSlice({
     initializeArticles: (state, action) => { state.articles = action.payload },
     addArticle: (state, action) => { state.articles.unshift(action.payload) },
     updateArticle: (state, action) => {
-      const { index, new_article } = action.payload
-      state.articles.splice(index, 1, new_article)
+      const { index, articleNew } = action.payload
+      state.articles.splice(index, 1, articleNew)
     },
     deleteArticle: (state, action) => {
       state.articles.splice(action.payload, 1)

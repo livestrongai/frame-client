@@ -1,5 +1,5 @@
 // initial state
-export const initial_state = {
+export const stateInitial = {
   link: { value: '' },
   image: { value: '' },
   title: { value: '' },
@@ -10,7 +10,7 @@ export const initial_state = {
 }
 
 // test case
-export const test_state = {
+export const stateTest = {
   link: {
     value: 'https://www.hsph.harvard.edu/nutritionsource/salt-and-sodium/',
     valid: true
@@ -91,5 +91,5 @@ export const isValid = (state) => {
   return true
 }
 
-export const exp = { initial_state, test_state, makeData, isValid }
+export const exp = { stateInitial, stateTest, makeData, isValid }
 export default exp

@@ -2,8 +2,8 @@ import { useSelector } from 'react-redux'
 import Sphere from './Sphere.jsx'
 import './F1BarLeft.css'
 
-export default function F1West () {
-  console.logD('DEBUG: L2 : F1-West', '#4285f4')
+export default function F1BarLeft () {
+  console.logD('DEBUG: L2 : F1-BarLeft', '#4285f4')
   const isMoved = useSelector(state => state.MenuLeft.on)
   return (
     <div className={isMoved ? 'left-bar move' : 'left-bar'}>

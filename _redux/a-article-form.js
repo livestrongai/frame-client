@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { initial_state, test_state, makeData, isValid } from './a-article-form-aux'
+import { stateInitial, stateTest, makeData, isValid } from './a-article-form-aux'
 
 export const ArticleFormSlice = createSlice({
   name: 'articleForm',
-  initialState: initial_state,
+  initialState: stateInitial,
   reducers: {
-    clearArticleForm: () => initial_state,
-    testArticleForm: () => test_state,
+    clearArticleForm: () => stateInitial,
+    testArticleForm: () => stateTest,
     setArticleForm: (_, action) => makeData(action.payload),
     updateArticleForm: (state, action) => {
       const [name, value, valid] = action.payload
