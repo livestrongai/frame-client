@@ -1,0 +1,15 @@
+.class_new {
+  color: red;
+}
+
+#menu_box {
+  display: flex;
+  position: absolute;
+  top: var(--z-apex-height);
+  right: 0px;
+  box-shadow: var(--shadow-sm);
+  background: var(--opa);
+  transition: background 2s;
+  padding: 5px;
+  border-radius: 5px;
+}

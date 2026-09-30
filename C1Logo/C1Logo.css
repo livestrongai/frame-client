@@ -1,0 +1,17 @@
+.left-logo{
+  margin-left: var(--left);
+  height:      var(--height-logo);
+  cursor:      pointer;
+}
+
+#rotate_00{
+  transform: rotate(1deg);
+  transition: transform 2s, filter 2s;
+}
+
+/* hue rotation has no effect on black */
+#rotate_90{
+  transform: rotate(90deg) scale(.9);
+  filter: hue-rotate(10deg);
+  transition: transform 2s, filter 2s;
+}

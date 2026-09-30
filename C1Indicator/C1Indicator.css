@@ -1,0 +1,26 @@
+.dot-indicator-off,
+.dot-indicator-on {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: var(--left);
+  transform-origin: center;
+  animation: pulse-once 1s cubic-bezier(0.4, 0, 0.2, 1) 2 alternate forwards;
+}
+
+.dot-indicator-off {
+  background-color:red;
+}
+
+.dot-indicator-on {
+  background-color:green;
+}
+
+@keyframes pulse-once {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.6);
+  }
+}

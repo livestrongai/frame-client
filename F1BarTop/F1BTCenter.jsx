@@ -3,7 +3,6 @@ import Home from '../F1BarTopIcons/Home.jsx'
 import User from '../F1BarTopIcons/User.jsx'
 
 export default function F1BTCenter () {
-  // console.logD('DEBUG: L3 : F1-Apex-Center ');
   return (
 
     <div className='apex-center'>

@@ -13,7 +13,7 @@ import '../F1All/F1Socket.js'
 import F1BarTop from '../F1BarTop/F1BarTop.jsx'
 import F1BarLeft from '../F1BarLeft/F1BarLeft.jsx'
 import F1BarBottom from '../F1BarBottom/F1BarBottom.jsx'
-import F1Page from '../F1Page/F1Page.jsx'
+import F1App from '../F1App/F1App.jsx'
 import F1Modal from '../F1Modal/F1Modal.jsx'
 
 export default function F1 () {
@@ -22,7 +22,7 @@ export default function F1 () {
     <div id='app_hold'>
       <F1BarTop />
       <F1BarLeft />
-      <F1Page />
+      <F1App />
       <F1Modal />
       <F1BarBottom />
     </div>
