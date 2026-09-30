@@ -2,8 +2,10 @@ import ArticleBar from './ArticleBar.jsx'
 import config from '../F1All/config_all.js'
 import './Article.css'
 
+let count = 0;
 const handleImageError = (error) => {
-  console.logD('DEBUG: L4 : F1-Page-A1Article-Article : Image not Found ', 'orange')
+  console.logD('DEBUG: L4 : F1-Page-A1Article-Article : Image not Found: ' + count++, 'orange')
+  console.log(error)
 }
 
 export function Article ({ article }) {

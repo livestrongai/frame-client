@@ -9,10 +9,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  publicDir: '_public-vite',
+  publicDir: '_vite-public',
   build: {
     sourcemap: true,
-    outDir: '_dist-vite',
+    outDir: '_vite-out',
     rollupOptions: {
       output: {
         manualChunks: undefined,
