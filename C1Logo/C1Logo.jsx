@@ -14,20 +14,36 @@ export default function C1Logo () {
     setRotation(!rotation)
   }
   return (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    viewBox="0 0 100 100" 
-    className='left-logo'
+
+  <img 
+    src="/images/favicon.svg" 
+    alt="Logo"
+    className="left-logo"
     id={rotation ? 'rotate_00' : 'rotate_90'}
     onClick={onClick}
     style={{ cursor: 'pointer' }}
-    fill='currentColor'
-  >
-    <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" stroke-width="6" /> 
-    <rect x="46" y="25" width="8" height="50" rx="2" fill="#000000" />
-  </svg>
+  />
+
   )
 };
+
+
+
+
+
+  // <svg 
+  //   xmlns="http://www.w3.org/2000/svg" 
+  //   viewBox="0 0 100 100" 
+  //   className='left-logo'
+  //   id={rotation ? 'rotate_00' : 'rotate_90'}
+  //   onClick={onClick}
+  //   style={{ cursor: 'pointer' }}
+  //   fill='currentColor'
+  // >
+  //   <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" stroke-width="6" /> 
+  //   <rect x="46" y="25" width="8" height="50" rx="2" fill="#000000" />
+  // </svg>
+
 
 
 

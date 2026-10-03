@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Outer Circle -->
-  <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" stroke-width="6" />
+  <!-- Outer Circle (Stroke = 14) -->
+  <circle cx="50" cy="50" r="43" fill="none" stroke="#000000" stroke-width="14" />
   
-  <!-- Lowercase 'l' (Centroid aligned rectangle) -->
-  <rect x="46" y="25" width="8" height="50" rx="2" fill="#000000" />
+  <!-- Uppercase 'L' (Thickness = 12) -->
+  <path d="M 38 27 V 73 H 67 V 61 H 50 V 27 Z" fill="#000000" />
 </svg>
