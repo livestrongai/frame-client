@@ -1,11 +1,15 @@
-const basePath = '/images/'
-const livelong = {
-  path: basePath,
-  favicon: `${basePath}favicon.svg`,
-  logo: `${basePath}favicon.svg`,
-  background: `${basePath}grid-1.svg`,
-  fallback: `${basePath}medical-symbol.jpeg`,
-  title: 'livelong',
+const imagePath = '/images/'
+const live = {
+
+  // images
+  path: imagePath,
+  favicon: `${imagePath}favicon.svg`,
+  logo: `${imagePath}favicon.svg`,
+  background: `${imagePath}grid-1.svg`,
+  fallback: `${imagePath}medical-symbol.jpeg`,
+  
+  // general
+  title: 'LiveLong',
   title_on: true,
   start_page: 'Articles',
   email: 'chris@livelong.ai',
@@ -13,4 +17,4 @@ const livelong = {
   github: 'https://github.com/caaker'
 }
 
-export default livelong
+export default live
