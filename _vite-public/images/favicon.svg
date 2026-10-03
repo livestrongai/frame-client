@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Outer Circle (Stroke = 14) -->
-  <circle cx="50" cy="50" r="43" fill="none" stroke="#000000" stroke-width="14" />
+  <!-- Outer Circle (Stroke = 12) -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#000000" stroke-width="12" />
   
-  <!-- Uppercase 'L' (Thickness = 12) -->
-  <path d="M 38 27 V 73 H 67 V 61 H 50 V 27 Z" fill="#000000" />
+  <!-- Uppercase 'L' (Thickness = 10) -->
+  <path d="M 39 26 V 74 H 68 V 64 H 49 V 26 Z" fill="#000000" />
 </svg>
