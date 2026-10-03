@@ -9,7 +9,7 @@ const live = {
   fallback: `${imagePath}medical-symbol.jpeg`,
   
   // general
-  title: 'LiveLong',
+  title: 'livelong',
   title_on: true,
   start_page: 'Articles',
   email: 'chris@livelong.ai',
