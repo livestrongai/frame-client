@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux'
 
 import C2Favicon from '../C2Favicon/C2Favicon.jsx'
-import C2Flip from '../C2Flip/C2Flip.jsx'
 import C2Copy from '../C2Copy/C2Copy.jsx'
 import C2Edit from '../C2Edit/C2Edit.jsx'
 import C2Delete from '../C2Delete/C2Delete.jsx'
@@ -32,3 +31,5 @@ export default function ArticleBar ({ article }) {
     </div>
   )
 };
+
+// import C2Flip from '../C2Flip/C2Flip.jsx'

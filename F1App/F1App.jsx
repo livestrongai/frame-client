@@ -1,10 +1,8 @@
 import './F1App.css'
 import A1User from '../A1User/A1User.jsx'
 import A1Article from '../A1Article/A1Article.jsx'
-
-// import { A1Bookmark } from '../A1Bookmark/A1Bookmark.jsx'
-// import A1Station from '../A1Station/A1Station.jsx'
-// import A1People from '../A1People/A1People.jsx'
+import A1Station from '../A1Station/A1Station.jsx'
+import { A1Domains } from '../A1Domains/A1Domains.jsx'
 
 import { useSelector } from 'react-redux'
 
@@ -17,12 +15,13 @@ export default function F1App () {
 
         {(page === 'User') && <A1User />}
         {(page === 'Articles') && <A1Article />}
-
-        {/* {(page === 'Bookmarks') && <A1Bookmark />}
-        {(page === 'Clock') && <A1Station />}
-        {(page === 'People') && <A1People />} */}
+        {(page === 'Station') && <A1Station />}
+        {(page === 'Domains') && <A1Domains />}
 
       </div>
     </div>
   )
 };
+
+// import A1People from '../A1People/A1People.jsx'
+// {(page === 'People') && <A1People />} */}

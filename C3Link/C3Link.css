@@ -1,0 +1,23 @@
+.domain_divs{
+  padding: 8px;
+  background-color: var(--bg-white-50);  
+  font-size: 11px;
+  border-radius: 2px;
+}
+
+.domain_divs:hover{
+  background-color: var(--bg-white-100);}
+
+.domain_images{
+  float: left;
+}
+
+.domain_values{
+  float: left;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.domain_values:hover{
+  color: #4285F4;  
+}

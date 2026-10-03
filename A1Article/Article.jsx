@@ -1,13 +1,10 @@
 import ArticleBar from './ArticleBar.jsx'
-import config from '../F1All/config_all.js'
 import './Article.css'
-
-let count = 0;
+let count = 0
 const handleImageError = (error) => {
   console.logD('DEBUG: L4 : F1-Page-A1Article-Article : Image not Found: ' + count++, 'orange')
   console.log(error)
 }
-
 export function Article ({ article }) {
   const { title, link, image, summary, tag, domain } = article
   const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-')
@@ -16,7 +13,6 @@ export function Article ({ article }) {
   return (
     <div className='__article-outer-outer'>
       <div className='__article-outer'>
-
         <article id={slug} className='__article'>
           <a className='article_link' href={link} target='_blank' rel='noreferrer'>
             <img className='article_link_image' src={location} alt={title} onError={handleImageError} />
@@ -29,7 +25,6 @@ export function Article ({ article }) {
           <p className='article_domain'> {domain} </p>
           <ArticleBar article={article} />
         </article>
-
       </div>
     </div>
   )

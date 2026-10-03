@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux'
 import './MenuBoxItem.css'
 import { updateMenuPage, toggleMenuPageOff } from '../_redux/f-menu'
 
-// name is displayed on the menu and used by dispatch
+// name is both displayed on the menu and used by dispatch
 export default function MenuBoxItem ({ name, children }) {
   const dispatch = useDispatch()
 

@@ -14,7 +14,13 @@
     ],
     "rules": {
       "camelcase": "off"
-    }
+    },
+    "ignore": [
+      "**/bundle.js",
+      "dist/",
+      "build/",
+      "public/js/"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "latest",

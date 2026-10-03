@@ -1,6 +1,6 @@
-export default function Search (article, search_string) {
+export default function Search (article, SearchString) {
   // nullish coalescing operator
-  const query = (search_string ?? '').toLowerCase()
+  const query = (SearchString ?? '').toLowerCase()
   if (!article || !query) return false
   if (article.title.toLowerCase().includes(query)) return true
   if (article.summary.toLowerCase().includes(query)) return true

@@ -52,7 +52,7 @@ export default function MenuBox () {
         <SVGBookmark />
       </MenuBoxItem>
 
-      <MenuBoxItem name='Clock'>
+      <MenuBoxItem name='Station'>
         <SVGClock />
       </MenuBoxItem>
 
