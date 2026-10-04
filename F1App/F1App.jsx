@@ -10,7 +10,7 @@ export default function F1App () {
   const page = useSelector((state) => state.MenuPage.current)
   console.logD('DEBUG: L2 : F1-App', '#4285f4')
   return (
-    <div id='page_hold'>
+    <div className='page_hold'>
       <div className='page_container'>
 
         {(page === 'User') && <A1User />}

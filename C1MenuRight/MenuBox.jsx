@@ -9,6 +9,7 @@ import { SVGUser } from '../C0Vectors/SVGUser.jsx'
 import { SVGArticle } from '../C0Vectors/SVGArticle.jsx'
 import { SVGBookmark } from '../C0Vectors/SVGBookmark.jsx'
 import { SVGClock } from '../C0Vectors/SVGClock.jsx'
+import { SVGFinance } from '../C0Vectors/SVGFinance.jsx'
 
 /* React and Redux */
 import { useEffect } from 'react'
@@ -48,9 +49,10 @@ export default function MenuBox () {
         <SVGArticle />
       </MenuBoxItem>
 
-      <MenuBoxItem name='Domains'>
-        <SVGBookmark />
+      <MenuBoxItem name='Finance'>
+        <SVGFinance />
       </MenuBoxItem>
+
 
       <MenuBoxItem name='Station'>
         <SVGClock />
@@ -60,3 +62,9 @@ export default function MenuBox () {
 
   )
 };
+
+
+
+      // <MenuBoxItem name='Domains'>
+      //   <SVGBookmark />
+      // </MenuBoxItem>
