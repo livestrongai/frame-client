@@ -1,13 +1,13 @@
 import './F1BTCenter.css'
 import Home from '../F1BarTopIcons/Home.jsx'
-import User from '../F1BarTopIcons/User.jsx'
+import Clock from '../F1BarTopIcons/Clock.jsx'
 
 export default function F1BTCenter () {
   return (
 
     <div className='apex-center'>
-      <User />
       <Home />
+      <Clock />
     </div>
   )
 };
@@ -22,4 +22,8 @@ Remove
 
 This will be the chat / AI integration later
   {<People/>}
+
+import User from '../F1BarTopIcons/User.jsx'
+<User />
+
 */

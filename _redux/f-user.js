@@ -9,7 +9,6 @@ const userSlice = createSlice({
   // payload is the default property on the action
   reducers: {
     initializeUser: (state, action) => {
-      console.log('initializeUser')
       state.current = action.payload
     }
   }

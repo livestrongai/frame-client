@@ -19,7 +19,6 @@ class Helper {
     try {
       const response = await fetch(url, options)
       if (!response.ok) throw new Error(`HTTP error with status: ${response.status}`)
-      console.log('here', url, response)
       const json = await response.json()
       onsuccess(json)
     } catch (error) {

@@ -8,6 +8,8 @@ import '../F1All/F1Custom.js'
 import '../F1All/F1ServerPing.js'
 import '../F1All/F1ServerData.js'
 import '../F1All/F1Socket.js'
+import '../F1All/F1KeyPress.js'
+
 
 // react components
 import F1BarTop from '../F1BarTop/F1BarTop.jsx'

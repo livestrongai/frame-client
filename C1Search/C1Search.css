@@ -1,0 +1,34 @@
+
+.left_input {
+  margin-left: var(--left);
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  color: inherit;
+  border: 1px solid currentColor;
+
+  outline-width: 0;
+  padding-left: 10px;
+  height: var(--height-logo);
+  background-color: inherit;
+}
+
+.left_input::placeholder {
+  color: currentColor;
+  opacity: .25;
+}
+
+#search_input_show {
+}
+
+#search_input_hide {
+  display:  none;
+}
+
+/* MEDIA
+*/
+@media screen and (max-width: 420px) {
+  .left_input {
+    width: 80px;
+  }
+}
