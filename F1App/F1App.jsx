@@ -23,7 +23,5 @@ export default function F1App () {
   )
 };
 
-
-
 // import A1People from '../A1People/A1People.jsx'
 // {(page === 'People') && <A1People />} */}

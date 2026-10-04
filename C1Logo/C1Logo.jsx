@@ -14,10 +14,10 @@ export default function C1Logo () {
     setRotation(!rotation)
   }
   return (
-    <img 
-      src="/images/favicon.svg" 
-      alt="Logo"
-      className="left-logo"
+    <img
+      src='/images/favicon.svg'
+      alt='Logo'
+      className='left-logo'
       id={rotation ? 'rotate_00' : 'rotate_90'}
       onClick={onClick}
       style={{ cursor: 'pointer' }}

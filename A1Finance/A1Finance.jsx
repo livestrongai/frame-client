@@ -7,8 +7,6 @@ export default function A1Finance () {
   // let articles = useSelector((state) => state.Articles?.articles)
   // const search = useSelector((state) => state.SearchInput.current)
   return (
-    <div id='page_finance'>
-    </div>
+    <div id='page_finance' />
   )
 }
-

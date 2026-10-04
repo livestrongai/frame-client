@@ -7,7 +7,7 @@ const live = {
   logo: `${imagePath}favicon.svg`,
   background: `${imagePath}grid-1.svg`,
   fallback: `${imagePath}medical-symbol.jpeg`,
-  
+
   // general
   title: 'Livelong',
   title_on: true,
