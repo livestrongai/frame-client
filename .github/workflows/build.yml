@@ -1,0 +1,52 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# permission to read the repository and write to github pages
+permissions:
+  contents: read
+  pages: write
+
+# avoid collisions 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# use ubuntu in the runner
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository into the github runner
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+      
+      - name: Install node 24 into the runner
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: 'npm'
+
+      - name: Install dependencies in package-lock.json
+        run: npm ci
+
+      - name: Run build script
+        run: npm run build
+
+      # step 5
+      - name: Deploy to remote repository
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # created and named in the GUI
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          # the source
+          publish_dir: ./_vite-out
+          # the destination
+          external_repository: livestrongai/livestrongai.github.io
+          publish_branch: main
