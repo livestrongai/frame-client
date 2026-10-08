@@ -40,7 +40,7 @@ jobs:
         run: npm run build
 
       # step 5
-      - name: Deploy to remote repository
+      - name: Deploy to github pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           # created and named in the GUI
@@ -50,3 +50,13 @@ jobs:
           # the destination
           external_repository: livestrongai/livestrongai.github.io
           publish_branch: main
+
+      # step 6
+      - name: Deploy to frame-server
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          publish_dir: ./_vite-out
+          external_repository: livestrongai/frame-server
+          publish_branch: main
+          destination_dir: dist
