@@ -6,18 +6,18 @@
   z-index: var(--z-aa);
   position: fixed;
   top: -64px;
-  transition: top 1s, background 2s;
+  transition: top .4s, background 2s;
   left: 0;
   height: 48px;
   width: 100%;
   box-sizing: border-box;
 
-  background: var(--opa);
+  /* background: var(--opa); */
 
   /* box-shadow: var(--shadow-sm); */
 
 }
 .is-visible{
   top: 64px;
-  transition: top 1s;
+  transition: top .4s;
 }
