@@ -16,7 +16,7 @@ const server = async () => {
   }
   if (heartbeat === 0) {
     const duration = (performance.now() - start).toFixed(2)
-    console.logD(`DEBUG: L2 : F1-Server: status ${status}: duration ${duration} ms`, '#34A853')
+    console.logD(`DEBUG: L2 : F1-Server: status: ${status ? 'up' : 'down'}: duration: ${duration} ms`, '#34A853')
   }
   store.dispatch(setServer({ ready: status, heartbeat: ++heartbeat }))
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Helper from '../F1All/F1Helper.js'
 
 export default function A1Station ({ lat, lon }) {
-  console.logD('DEBUG: L4 : F1-Page-Station-Air ')
+  // console.logD('DEBUG: L4 : F1-Page-Station-Air ')
 
   const [airData, setAirData] = useState(null)
   const baseURL = Helper.getBaseURL()

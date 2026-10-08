@@ -8,7 +8,7 @@ import { getArticles, saveArticles } from '../F1LS/F1LSArticles.js';
   const urls = Helper.getURLs(true)
   const articles = getArticles()
   if (articles && articles.length > 0) {
-    console.logD('DEBUG: L2 : F1-Data: localStorage utilized: ' + articles.length, '#34A853')
+    console.logD('DEBUG: L2 : F1-Data: localStorage utilized: ' + articles.length + ' articles loaded', '#34A853')
     store.dispatch(initializeArticles(articles))
   } else {
     console.logD('DEBUG: L2 : F1-Data: fetch utilized:', '#34A853')

@@ -2,8 +2,8 @@ import ArticleBar from './ArticleBar.jsx'
 import './Article.css'
 let count = 0
 const handleImageError = (error) => {
-  console.logD('DEBUG: L4 : F1-Page-A1Article-Article : Image not Found: ' + count++, 'red')
-  console.log(error)
+  console.logD('DEBUG: L4 : F1-Page-A1Article-Article : Image(s) not Found: ' + ++count)
+  console.log(error.target.currentSrc)
 }
 export function Article ({ article }) {
   const { title, link, image, summary, tag, domain } = article

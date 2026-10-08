@@ -19,7 +19,7 @@ import F1App from '../F1App/F1App.jsx'
 import F1Modal from '../F1Modal/F1Modal.jsx'
 
 export default function F1 () {
-  console.logD('DEBUG: L1 : F1', '#000000')
+  console.logD('DEBUG: L1 : F1', '#4285f4')
   return (
     <div id='app_hold'>
       <F1BarTop />
