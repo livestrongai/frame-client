@@ -7,6 +7,7 @@
 
 /* z-indices */
 :root {
+  --z-aa: 5;
   --z-a: 10;
   --z-b: 20;
   --z-c: 30;

@@ -6,14 +6,14 @@ export default function C1Search () {
   const dispatch = useDispatch()
   const page = useSelector((state) => state.MenuPage.current)
   const SearchCurrent = useSelector((state) => state.SearchInput.current)
-  const CSSID = (page === 'Articles') ? 'search_input_show' : 'search_input_hide'
+  // const CSSID = (page === 'Articles') ? 'search_input_show' : 'search_input_hide'
   const onChange = (event) => dispatch(updateSearchInput(event.target.value))
 
   return (
     <input
       type='text'
       className='left_input'
-      id={CSSID}
+      id='search_input_show'
       name='search'
       placeholder=' Search'
       value={SearchCurrent}

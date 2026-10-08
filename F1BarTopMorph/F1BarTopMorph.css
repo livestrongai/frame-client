@@ -1,0 +1,23 @@
+.bar_top_hold_hold{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bbb;
+  z-index: var(--z-aa);
+  position: fixed;
+  top: -64px;
+  transition: top 1s, background 2s;
+  left: 0;
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+
+  background: var(--opa);
+
+  /* box-shadow: var(--shadow-sm); */
+
+}
+.is-visible{
+  top: 64px;
+  transition: top 1s;
+}
