@@ -6,14 +6,13 @@ import { toggleMenuPage } from '../_redux/f-menu'
 
 export default function C1MenuRight () {
   const dispatch = useDispatch()
-  const MenuOn = useSelector((state) => state.MenuPage.on)
 
   // useCallback to prevent redefinitions during re-render is overkill here
   const menuClicked = () => dispatch(toggleMenuPage())
   return (
     <>
       <SVGMenu onClick={menuClicked} id='menu_top' />
-      {MenuOn && <MenuBox />}
+      { <MenuBox />}
     </>
   )
 }

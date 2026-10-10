@@ -13,11 +13,12 @@ import { SVGClock } from '../C0Vectors/SVGClock.jsx'
 
 /* React and Redux */
 import { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { toggleMenuPageOff } from '../_redux/f-menu'
 
 export default function MenuBox () {
   const dispatch = useDispatch()
+  const MenuOn = useSelector((state) => state.MenuPage.on)
 
   useEffect(() => {
     // if put outside of useEffect; we have a memory leak
@@ -35,24 +36,19 @@ export default function MenuBox () {
 
   return (
 
-    <span id='menu_box'>
-
+    <span className={`menu_box ${MenuOn ? 'is_visible_box' : ''}`}>
       <MenuBoxItemAdd name='Add'>
         <SVGAdd />
       </MenuBoxItemAdd>
-
       <MenuBoxItem name='User'>
         <SVGUser />
       </MenuBoxItem>
-
       <MenuBoxItem name='Articles'>
         <SVGArticle />
       </MenuBoxItem>
-
       <MenuBoxItem name='Station'>
         <SVGClock />
       </MenuBoxItem>
-
     </span>
 
   )
